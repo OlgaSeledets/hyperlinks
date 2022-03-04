@@ -1,0 +1,60 @@
+body {
+    font-family: Josefin Sans;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+    min-width: 320px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.link {
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: brown;
+}
+
+.link:hover {
+    content: '';
+    color: crimson;
+}
+
+.files {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+.file {
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: blue;
+}
+
+.file:hover {
+    content: '';
+    color: cornflowerblue;
+}
